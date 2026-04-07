@@ -48,6 +48,7 @@
             box-shadow: 0 20px 50px rgba(0,0,0,0.15);
             overflow: hidden;
             border-radius: 8px;
+            margin-left: -20px;
         }
 
         .dot-logo {
@@ -214,8 +215,8 @@
             modelGroup.rotation.x = Math.PI / 6;
 
             // ★ ここでCDの位置を調整します（例：右上の奥の方）
-            myModel.position.set(3 * aspect, 2, -2); 
-            myModel.scale.set(3, 3, 3); 
+            myModel.position.set(2 * aspect, 1, -2); 
+            myModel.scale.set(4, 4, 4); 
 
             scene.add(modelGroup);
         });
